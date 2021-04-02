@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- meta -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Health</title>
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  
+  <!-- Blog Stylesheet File -->
+  <link href="css/amae.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+      <!-- Responsive css -->
+	<link href="css/responsive.css" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.png">
+
+</head>
+
+<body>
+
+  <!-- start section navbar -->
+  <nav id="main-nav-subpage" class="subpage-nav">
+    <div class="row">
+      <div class="container">
+
+        <!-- <div class="logo">
+          <a href="index.html"><img src="images/favicon.png" alt="logo"></a>
+        </div> -->
+
+        <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
+
+        <ul class="nav-menu list-unstyled">
+          <li><a href="#top" class="smoothScroll">Scroll Up</a></li>
+          <!-- <li><a href="#about" class="smoothScroll">About</a></li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End section navbar -->
+  <!-- start section main content -->
+  <div class="main-content paddsection">
+    <div class="container" id="top">
+      <div class="row justify-content-center">
+        <div class="col-md-10 col-md-offset-2">
+          <div class="row">
+            <div class="container-main single-main">
+              <div class="col-md-12">
+                <div class="block-main mb-30">
+                  <img src="images/logohealth.png" class="res" alt="reviews2">
+                </a>
+                  <div class="content-main single-post padDiv">
+                    <div class="journal-txt">
+                      <h4>Application Developer<br>Health</h4>                    
+                      <hr>
+                    </div>
+                    <div class="post-meta">
+                      <ul class="list-unstyled mb-0">
+                        <li class="date">Role: Lead Programmer, Strategy & Ideation, UX design</li>
+                        <li class="author">Tools: Android Studio, Java, Photoshop, Illustrator, Git</li>
+                        <li class="date">date: Spring 2019</li>
+                        <li class="date">Academic Project</li>
+
+                      </ul>
+                    </div>
+                    <p class="mb-30">This application is a health app and is mainly focused on people who are willing to change their current lifestyle to a healthy lifestyle. 
+                        The most common functionality is where the individual user would log in into the app and then estimate how his current status of health is. Depending on it the user would go for a run and the app would count his steps, 
+                        give him feedback on his calories and days remaining to reach the goal. 
+                      </p>
+                    <h5>Ideation & Strategy</h5>
+                      <p class="mb-30">During my initial analysis, I tried to look at similar apps, I did realize that it isn't a new concept
+                          yet I was unsatisfied with the current market offerings. Most of them needed to enable network services to track steps which would result in lower battery power for the user. <br> <br>Hence came to the idea of step tracking without using the network but onboard sensors to compute data. Moreover, I wanted to allow the user to keep track of the food items along with the calories he has consumed.
+                          The order of activities can be seen here. 
+                      </p>
+                        <div class="block-main mb-30">
+                            <img src="images/process.png" class="res" alt="reviews2">
+                            <div class="caption"><figcaption>Flow of the application</figcaption></div>
+
+                          </div>
+                    
+                      <div class="block-main mb-30">
+                      <img src="images/tech.png" class="res" alt="reviews2">
+                      <div class="caption"><figcaption>Application progresses this way</figcaption></div>
+                      <div class="block-main mb-30">
+                        <a class="popup-img" href="images/screen.png">
+                      <img src="images/screen.png" class="res" alt="reviews2">
+                      <div class="caption"><figcaption>Final Application</figcaption></div>
+
+                    </a>
+                    </div>
+                    <p class="mb-30"></p>
+                      <h5>Challenge</h5>
+                      <p class="mb-30"> The question was <br> "How to calculate steps using accelerometer rather than using location , when no inbuilt pedometer sensors are available ? ""
+                      </p>
+                      <h5>Solution</h5>
+                      <p class="mb-30">The solution is a follows :
+                          <br>1) Using inbuilt library (TYPE_STEP_DETECTOR), (TYPE_STEP_COUNTER) 
+                          <br>2) The way it works is that it calculates average velocity by guessing where the global Z vector is. This is done by calculating the X, Y, Z values of the accelerometer. The average of 50 readings is taken for all of them. 
+                          <br>3) It is then multiplied with a step delay of 250000000 Sec. All this is then converted into individual steps being counted.
+                          </p>
+ 
+                    <h5>Reflections</h5>
+                    <p class="mb-30">With this project, I got to learn a lot of new things in Java, Photoshop, Illustrator and their integration in the app. This paved
+                        the way for further projects where these tools were needed. I heavily relied on Android Studio documentation for most of my work.
+                        </p>
+                    
+                    <em>
+                      <a href="https://drive.google.com/open?id=1fEH0dcnwDlGZHIRs9IYrm1Mc8XhMXX5F" target="_blank">Download the Health App</a>
+                    </em>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--  </div> -->
+  <!-- start section main content -->
+
+  <!-- start section footer -->
+  <!-- <div id="footer" class="text-center">
+    <div class="container">
+      <div class="socials-media text-center">
+
+        <ul class="list-unstyled">
+          <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+          <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+          <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+          <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+          <li><a href="#"><i class="ion-social-tumblr"></i></a></li>
+          <li><a href="#"><i class="ion-social-dribbble"></i></a></li>
+        </ul>
+
+      </div>
+
+      <p>&copy; Copyrights Folio. All rights reserved.</p>
+
+     
+
+    </div>
+  </div> -->
+  <!-- End section footer -->
+<!-- End section footer -->
+<script src="lib/jquery/jquery.min.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
